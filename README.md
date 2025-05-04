@@ -67,7 +67,20 @@ llm = Llama.from_pretrained(
 
 ## Images
 
+<img width="1512" alt="Screenshot 2025-05-04 at 1 17 08 PM" src="https://github.com/user-attachments/assets/cf341410-f07f-48c9-9608-7a0cd64aeb44" />
+
+<img width="1512" alt="Screenshot 2025-05-04 at 1 17 12 PM" src="https://github.com/user-attachments/assets/2edce3ff-9a0e-4115-a354-9266f1d0e611" />
+
+<img width="1512" alt="Screenshot 2025-05-04 at 1 17 49 PM" src="https://github.com/user-attachments/assets/e023e7d4-6a33-4f67-b2c3-28125baf4e43" />
+
+![Screenshot 2025-05-04 at 1 18 02 PM](https://github.com/user-attachments/assets/114796aa-cc83-4e60-933f-6d11c0a18755)
+
+<img width="1512" alt="Screenshot 2025-05-04 at 1 18 13 PM" src="https://github.com/user-attachments/assets/41204ffb-c5c4-4e28-b8c0-efcdda294293" />
+
+
 <img width="1512" alt="Screenshot 2025-05-04 at 1 17 22 PM" src="https://github.com/user-attachments/assets/5d9b67ec-2ac4-4127-8264-78a9f8b557af" />
+
+<img width="1512" alt="Screenshot 2025-05-04 at 1 17 22 PM" src="https://github.com/user-attachments/assets/aa549899-24e1-4a5b-b3b0-0d021307ea6d" />
 
 
 
