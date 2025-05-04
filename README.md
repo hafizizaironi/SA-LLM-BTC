@@ -23,7 +23,7 @@ The `.gguf` model files are **not included** in this repo due to GitHub file siz
 📥 **You can download them from [Google Drive / Hugging Face](#)**  
 📝 Place them inside: `backend/app/models/`
 
-the models that we are using:
+## the models that we are using:
 
 
 ---------this is for qwen2.5 model-------
@@ -64,6 +64,10 @@ llm = Llama.from_pretrained(
 	repo_id="lmstudio-community/Llama-3.2-3B-Instruct-GGUF",
 	filename="Llama-3.2-3B-Instruct-Q4_K_M.gguf",
 )
+
+## Images
+
+<img width="1512" alt="Screenshot 2025-05-04 at 1 17 22 PM" src="https://github.com/user-attachments/assets/5d9b67ec-2ac4-4127-8264-78a9f8b557af" />
 
 
 
