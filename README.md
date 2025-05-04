@@ -23,6 +23,50 @@ The `.gguf` model files are **not included** in this repo due to GitHub file siz
 📥 **You can download them from [Google Drive / Hugging Face](#)**  
 📝 Place them inside: `backend/app/models/`
 
+the models that we are using:
+
+
+---------this is for qwen2.5 model-------
+from llama_cpp import Llama
+
+llm = Llama.from_pretrained(
+	repo_id="lmstudio-community/Qwen2.5-7B-Instruct-1M-GGUF",
+	filename="Qwen2.5-7B-Instruct-1M-Q4_K_M.gguf",
+)
+
+---------this is for gemma -------
+from llama_cpp import Llama
+
+llm = Llama.from_pretrained(
+	repo_id="lmstudio-community/gemma-3-4b-it-GGUF",
+	filename="gemma-3-4b-it-Q4_K_M.gguf",
+)
+---------this is for base-model-llama -------
+from llama_cpp import Llama
+
+llm = Llama.from_pretrained(
+	repo_id="lmstudio-community/Meta-Llama-3.1-8B-Instruct-GGUF",
+	filename="Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf",
+)
+---------this is for fine-tune llama ( model A ) -------
+
+from llama_cpp import Llama
+
+llm = Llama.from_pretrained(
+	repo_id="hafizizaironi/crypto_llama3.1_8b_q4_k_m_mzas_selfannotated",
+	filename="unsloth.Q4_K_M.gguf",
+)
+---------this is for fine-tune llama ( model B ) -------
+
+from llama_cpp import Llama
+
+llm = Llama.from_pretrained(
+	repo_id="lmstudio-community/Llama-3.2-3B-Instruct-GGUF",
+	filename="Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+)
+
+
+
 ## ⚙️ Setup
 
 ```bash
@@ -35,3 +79,5 @@ npm run dev
 cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload
+
+
